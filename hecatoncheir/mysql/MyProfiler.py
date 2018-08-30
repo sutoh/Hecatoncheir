@@ -177,8 +177,6 @@ GROUP BY
 ORDER BY
   2 {3}, 1
 ) AS TMP
-ORDER BY
-  2 DESC, 1
 LIMIT {4}
 '''.format(schema_name, table_name, col, ascdesc,
                 self.profile_most_freq_values_enabled)
